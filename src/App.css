@@ -16,3 +16,14 @@ body{
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
+.photos {
+  transition: all 250ms ease-in-out;
+}
+
+.photos:hover {
+  filter: drop-shadow(0 0 20px rgba(255, 202, 233, 0.8));
+  cursor: pointer;
+  transform: scale(1.05);
+  z-index: 100 !important;
+}
